@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>191</width>
+    <height>351</height>
+   </rect>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>406</width>
+    <height>384</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(51, 51, 51);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QTextBrowser" name="tB_time">
+      <property name="styleSheet">
+       <string notr="true">color: rgb(7, 212, 7);</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="lb_time">
+      <property name="styleSheet">
+       <string notr="true">text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+color: rgb(7, 212, 7);</string>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;TIME&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pB_start">
+      <property name="styleSheet">
+       <string notr="true">    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    background: #f73;
+    /* Font styles */
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+background-color: rgb(31, 168, 49);
+</string>
+      </property>
+      <property name="text">
+       <string>Start/Stop</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pB_circle">
+      <property name="styleSheet">
+       <string notr="true">    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    background: #08C;
+    /* Font styles */
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+background-color: rgb(31, 168, 49);</string>
+      </property>
+      <property name="text">
+       <string>Circle</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pB_clear">
+      <property name="styleSheet">
+       <string notr="true">    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    background: #08C;
+    /* Font styles */
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+background-color: rgb(31, 168, 49);</string>
+      </property>
+      <property name="text">
+       <string>Clear</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>191</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
